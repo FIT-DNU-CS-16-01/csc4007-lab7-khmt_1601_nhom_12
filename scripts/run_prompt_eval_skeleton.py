@@ -5,7 +5,7 @@ This is a scaffold, not a complete starter kit.
 Students should complete the TODO sections based on the LLM/API they choose.
 """
 
-import csv
+import csv   
 from pathlib import Path
 
 DATA_PATH = Path("data/imdb_sample_50.csv")
@@ -15,7 +15,7 @@ OUTPUT_PATH = Path("outputs/result_v1.csv")
 
 def call_llm(prompt: str) -> str:
     """
-    TODO:
+    TODO:     
     Replace this function with your LLM call.
     Options:
     - Gemini API
